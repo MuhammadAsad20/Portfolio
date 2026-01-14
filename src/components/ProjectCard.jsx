@@ -44,7 +44,7 @@ const ProjectCard = ({ project, index, inView }) => {
       </div>
 
       {/* Tags */}
-      <div className="mt-2 text-sm text-[#EBD6DC]">
+      <div className="mt-2 text-sm text-gray-300">
         {project.tags.map((tag, i) => (
           <span key={i} className="mr-2">#{tag}</span>
         ))}
@@ -54,3 +54,4 @@ const ProjectCard = ({ project, index, inView }) => {
 };
 
 export default ProjectCard;
+
