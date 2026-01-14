@@ -20,7 +20,7 @@ const projects = [
     image: Nexcent,
     demoLink: "https://nexcent-animated.vercel.app/",
     githubLink: "https://github.com/MuhammadAsad20/nexcent-ANIMATED",
-    tags: ["Node.js", "Express", "Backend"],
+    tags: ["React", "Tailwind", "Frontend"],
   },
   {
     title: "Food Block",
@@ -28,7 +28,7 @@ const projects = [
     image: FoodBlock,
     demoLink: "https://food-blocks-ten.vercel.app",
     githubLink: "https://github.com/MuhammadAsad20/FoodBlocks",
-    tags: ["MongoDB", "Database"],
+    tags: ["React", "Tailwind"],
   },
 ];
 
@@ -62,3 +62,4 @@ const ProjectsSection = () => {
 };
 
 export default ProjectsSection;
+
