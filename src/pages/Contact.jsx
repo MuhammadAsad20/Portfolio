@@ -57,9 +57,9 @@ const Contact = () => {
           transition={{ duration: 1 }}
           className="bg-rose-100 border-1 border-rose-400 p-6 rounded-lg shadow-lg flex flex-col"
         >
-          <input type="text" placeholder="Name" className="w-full p-3 mb-4 rounded-lg border-2 border-rose-400 bg-rose-200 text-gray-600" />
-          <input type="email" placeholder="Email" className="w-full p-3 mb-4 rounded-lg border-2 border-rose-400 bg-rose-200 text-gray-600" />
-          <textarea placeholder="Message" rows="5" className="w-full p-3 mb-4 rounded-lg border-2 border-rose-400 bg-rose-200 text-gray-600"></textarea>
+          <input type="text" placeholder="Name" className="w-full p-3 mb-4 rounded-lg border-2 border-rose-400 text-gray-600" />
+          <input type="email" placeholder="Email" className="w-full p-3 mb-4 rounded-lg border-2 border-rose-400 text-gray-600" />
+          <textarea placeholder="Message" rows="5" className="w-full p-3 mb-4 rounded-lg border-2 border-rose-400 bg text-gray-600"></textarea>
           <motion.button
             type="submit"
             className="bg-rose-400 text-white px-6 py-3 rounded-lg mt-2"
@@ -74,3 +74,4 @@ const Contact = () => {
 };
 
 export default Contact;
+
