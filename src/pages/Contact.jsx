@@ -55,7 +55,7 @@ const Contact = () => {
           initial={{ opacity: 0, x: 50 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 1 }}
-          className="bg-rose-100 border-1 border-rose-400 p-6 rounded-lg shadow-lg flex flex-col"
+          className=" border-1 border-rose-400 p-6 rounded-lg shadow-lg flex flex-col"
         >
           <input type="text" placeholder="Name" className="w-full p-3 mb-4 rounded-lg border-2 border-rose-400 text-gray-600" />
           <input type="email" placeholder="Email" className="w-full p-3 mb-4 rounded-lg border-2 border-rose-400 text-gray-600" />
@@ -74,4 +74,5 @@ const Contact = () => {
 };
 
 export default Contact;
+
 
