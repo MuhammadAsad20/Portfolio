@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 const ProjectCard = ({ project, index, inView }) => {
   return (
     <motion.div
-      className="border-1 border-rose-400 bg-rose-100 p-6 rounded-lg shadow-lg"
+      className="border-1 border-rose-400 p-6 rounded-lg shadow-lg"
       initial={{ opacity: 0, scale: 0.8 }}
       animate={inView ? { opacity: 1, scale: 1 } : {}}
       transition={{ delay: index * 0.2, duration: 0.8 }}
@@ -54,5 +54,6 @@ const ProjectCard = ({ project, index, inView }) => {
 };
 
 export default ProjectCard;
+
 
 
